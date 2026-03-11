@@ -78,12 +78,6 @@ install_pkg() {
     
     (yes | pkg install $pkg -y > /dev/null 2>&1) &
     spinner $! "Installing ${name}..."
-}
-# ============== BANNER ==============
-show_banner() {
-    clear
-    echo -e "${CYAN}"
-    cat << 'BANNER'
     ╔══════════════════════════════════════╗
     ║                                      ║
     ║ Linux Desktop v2.3        ║
