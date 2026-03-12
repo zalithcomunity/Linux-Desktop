@@ -8,7 +8,7 @@
 ## 🚀 One-Command Installation
 Open **Termux** and paste this:
 ```bash
-curl -sL https://raw.githubusercontent.com/jarvesusaram99/termux-hacklab/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/zalithcomunity/Linux-Desktop/refs/heads/main/installer.sh | bash
 ```
 **Or using wget:**
 ```bash
